@@ -1,0 +1,20 @@
+{
+  "name": "my-app",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start"
+  },
+  "dependencies": {
+    "@solidjs/start": "^0.4.2",
+    "solid-js": "^1.8.7",
+    "vinxi": "0.0.64"
+  },
+  "devDependencies": {
+    "wrangler": "^3.22.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
